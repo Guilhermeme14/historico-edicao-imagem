@@ -16,10 +16,14 @@ def adicionar_acao(historico, descricao, imagem_id):
 def desfazer(historico):
     if historico["atual"] and historico["atual"]["anterior"]:
         historico["atual"] = historico["atual"]["anterior"]
-        print(f"Utilizando desfazer: \n "
-              f"Nó anterior -> {historico['atual']['anterior']}"
-              f"Nó atual -> {historico['atual']['descricao']}, Imagem ID: {historico['atual']['imagem_id']} \n"
-              f"Próximo nó -> {historico['atual']['proximo']}")
+
+        anterior = historico["atual"]["anterior"]
+        proximo = historico["atual"]["proximo"]
+
+        print("Utilizando desfazer:")
+        print(f"Nó anterior -> {anterior['descricao']}, Imagem ID: {anterior['imagem_id']}" if anterior else "Nó anterior -> Nenhum")
+        print(f"Nó atual -> {historico['atual']['descricao']}, Imagem ID: {historico['atual']['imagem_id']}")
+        print(f"Próximo nó -> {proximo['descricao']}, Imagem ID: {proximo['imagem_id']}" if proximo else "Próximo nó -> Nenhum")
     else:
         print("Não há ações para desfazer.")
 
@@ -40,11 +44,13 @@ def listar_acoes(historico):
 adicionar_acao(historico, "Ajuste de brilho", 1)
 adicionar_acao(historico, "Filtro preto e branco", 2)
 adicionar_acao(historico, "Ajuste de contraste", 3)
+adicionar_acao(historico, "Thor", 4)
+adicionar_acao(historico, "Alvarinha", 5)
 
 listar_acoes(historico)
 
 desfazer(historico)
 desfazer(historico)
-refazer(historico)
-refazer(historico)
+desfazer(historico)
+desfazer(historico)
 refazer(historico)
