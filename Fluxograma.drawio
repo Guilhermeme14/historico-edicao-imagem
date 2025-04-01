@@ -1,0 +1,93 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.3">
+  <diagram name="Página-1" id="CRC1uAiOmM8tx6dWhX5k">
+    <mxGraphModel dx="1166" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="55GqH5Y42_msCHlaFa9X-39" value="&lt;p data-start=&quot;141&quot; data-end=&quot;184&quot; class=&quot;&quot;&gt;🟢 &lt;strong data-start=&quot;144&quot; data-end=&quot;163&quot;&gt;Verde&lt;/strong&gt;&amp;nbsp;→ &lt;strong data-start=&quot;166&quot; data-end=&quot;182&quot;&gt;Início e Fim&lt;/strong&gt;&lt;/p&gt;&lt;ul data-start=&quot;188&quot; data-end=&quot;251&quot;&gt;&lt;li data-start=&quot;188&quot; data-end=&quot;251&quot; class=&quot;&quot;&gt;&lt;p data-start=&quot;190&quot; data-end=&quot;251&quot; class=&quot;&quot;&gt;Representa o ponto de entrada e saída do fluxo de execução.&lt;/p&gt;&lt;br&gt;&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;p data-start=&quot;253&quot; data-end=&quot;306&quot; class=&quot;&quot;&gt;🟡 &lt;strong data-start=&quot;256&quot; data-end=&quot;277&quot;&gt;Amarelo&lt;/strong&gt;&amp;nbsp;→ &lt;strong data-start=&quot;280&quot; data-end=&quot;304&quot;&gt;Criação do histórico&lt;/strong&gt;&lt;/p&gt;&lt;ul data-start=&quot;310&quot; data-end=&quot;375&quot;&gt;&lt;li data-start=&quot;310&quot; data-end=&quot;375&quot; class=&quot;&quot;&gt;&lt;p data-start=&quot;312&quot; data-end=&quot;375&quot; class=&quot;&quot;&gt;Indica a inicialização da estrutura de dados usada no código.&lt;/p&gt;&lt;br&gt;&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;p data-start=&quot;377&quot; data-end=&quot;430&quot; class=&quot;&quot;&gt;🔴 &lt;strong data-start=&quot;380&quot; data-end=&quot;402&quot;&gt;Vermelho &lt;/strong&gt;→ &lt;strong data-start=&quot;405&quot; data-end=&quot;428&quot;&gt;Decisões&lt;/strong&gt;&lt;/p&gt;&lt;ul data-start=&quot;434&quot; data-end=&quot;545&quot;&gt;&lt;li data-start=&quot;434&quot; data-end=&quot;545&quot; class=&quot;&quot;&gt;&lt;p data-start=&quot;436&quot; data-end=&quot;545&quot; class=&quot;&quot;&gt;Representa perguntas condicionais, onde o fluxo pode seguir por caminhos diferentes&lt;/p&gt;&lt;br&gt;&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;p data-start=&quot;547&quot; data-end=&quot;599&quot; class=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;🔵 &lt;/span&gt;&lt;strong style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-end=&quot;574&quot; data-start=&quot;550&quot;&gt;Azul claro&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;→ &lt;/span&gt;&lt;strong style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-end=&quot;597&quot; data-start=&quot;577&quot;&gt;Ações executadas&lt;/strong&gt;&lt;/p&gt;&lt;ul data-end=&quot;700&quot; data-start=&quot;603&quot;&gt;&lt;li class=&quot;&quot; data-end=&quot;700&quot; data-start=&quot;603&quot;&gt;&lt;p class=&quot;&quot; data-end=&quot;700&quot; data-start=&quot;605&quot;&gt;Indica os blocos que realizam operações no histórico&amp;nbsp;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="560" width="270" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="55GqH5Y42_msCHlaFa9X-40" value="Início" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="374" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55GqH5Y42_msCHlaFa9X-41" value="Criar estrutura de dados para histórico" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="314" y="130" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55GqH5Y42_msCHlaFa9X-42" value="Escolher ação" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8CECC;" vertex="1" parent="1">
+          <mxGeometry x="374" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55GqH5Y42_msCHlaFa9X-43" value="Adicionar ação ao histórico" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" vertex="1" parent="1">
+          <mxGeometry x="45" y="250" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55GqH5Y42_msCHlaFa9X-44" value="Desfazer última ação" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" vertex="1" parent="1">
+          <mxGeometry x="160" y="330" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55GqH5Y42_msCHlaFa9X-45" value="Refazer última ação desfeita" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" vertex="1" parent="1">
+          <mxGeometry x="600" y="250" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55GqH5Y42_msCHlaFa9X-46" value="Listar ações do histórico" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;" vertex="1" parent="1">
+          <mxGeometry x="480" y="330" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55GqH5Y42_msCHlaFa9X-47" value="Continuar?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8CECC;" vertex="1" parent="1">
+          <mxGeometry x="374" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55GqH5Y42_msCHlaFa9X-48" value="Fim" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="374" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55GqH5Y42_msCHlaFa9X-49" edge="1" parent="1" source="55GqH5Y42_msCHlaFa9X-40" target="55GqH5Y42_msCHlaFa9X-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55GqH5Y42_msCHlaFa9X-50" edge="1" parent="1" source="55GqH5Y42_msCHlaFa9X-41" target="55GqH5Y42_msCHlaFa9X-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55GqH5Y42_msCHlaFa9X-51" edge="1" parent="1" source="55GqH5Y42_msCHlaFa9X-42" target="55GqH5Y42_msCHlaFa9X-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55GqH5Y42_msCHlaFa9X-52" style="exitX=0.284;exitY=0.794;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="55GqH5Y42_msCHlaFa9X-42" target="55GqH5Y42_msCHlaFa9X-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55GqH5Y42_msCHlaFa9X-53" edge="1" parent="1" source="55GqH5Y42_msCHlaFa9X-42" target="55GqH5Y42_msCHlaFa9X-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55GqH5Y42_msCHlaFa9X-54" style="exitX=0.669;exitY=0.823;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="55GqH5Y42_msCHlaFa9X-42" target="55GqH5Y42_msCHlaFa9X-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="459" y="299" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="580" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55GqH5Y42_msCHlaFa9X-55" edge="1" parent="1" source="55GqH5Y42_msCHlaFa9X-43" target="55GqH5Y42_msCHlaFa9X-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="145" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55GqH5Y42_msCHlaFa9X-56" edge="1" parent="1" source="55GqH5Y42_msCHlaFa9X-44" target="55GqH5Y42_msCHlaFa9X-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55GqH5Y42_msCHlaFa9X-57" edge="1" parent="1" source="55GqH5Y42_msCHlaFa9X-45" target="55GqH5Y42_msCHlaFa9X-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55GqH5Y42_msCHlaFa9X-58" edge="1" parent="1" source="55GqH5Y42_msCHlaFa9X-46" target="55GqH5Y42_msCHlaFa9X-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55GqH5Y42_msCHlaFa9X-59" edge="1" parent="1" source="55GqH5Y42_msCHlaFa9X-47" target="55GqH5Y42_msCHlaFa9X-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55GqH5Y42_msCHlaFa9X-60" edge="1" parent="1" source="55GqH5Y42_msCHlaFa9X-47" target="55GqH5Y42_msCHlaFa9X-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
